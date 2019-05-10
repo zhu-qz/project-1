@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.margin{width: 1150px;margin: 0 auto;}
+
+main{overflow: hidden;margin:50px 0 50px 0;}
+main .m-l{float: left;padding-right: 100px;}
+/* main .m-l .small{width: 420px;height: 560px;}
+main .m-l .small img{width: 420px;height: 560px;}
+main .m-l .small span{position: absolute;left:0;top:0;width:134px;height:100px;background: rgba(200,200,200,0.5);display: none}
+main .m-l .big{width: 420px;height: 560px;position: absolute;top:100px;left:500px;overflow: hidden;display: none}
+main .m-l .big img{width: 750px;height: 1000px;} */
+
+main .m-r{float: left;width: 585px;}
+main .m-r p{font: 700 20px/2 "";color: black;border-bottom: 1px solid #f4f4f4;padding-bottom: 10px;}
+main .m-r .m-r-t{margin-top: 15px;height: 100px;border-bottom: 1px solid #f4f4f4;}
+main .m-r .m-r-t span{font: 14px/80px "";color: black;padding-right: 15px;}
+main .m-r .m-r-c{margin-top: 20px;overflow: hidden;border-bottom: 1px solid #f4f4f4;}
+main .m-r .m-r-c ul{margin-bottom: 20px}
+main .m-r .m-r-c ul li{height: 40px;padding-top: 10px}
+main .m-r .m-r-c ul li span{float: left;font: 12px/32px "";color: black;padding-right: 15px}
+main .m-r .m-r-c ul li p{float: left;width:60px;height: 24px;border: 1px solid black;font: 12px/30px "";text-align: center;margin-right: 10px}
+main .m-r .m-r-c ul li i{width: 34px;height: 34px;float: left;border: 1px solid #ccc;text-align: center;font: 12px/30px "";background: #bbb;margin-right: 10px}
+main .m-r .m-r-b{margin-top: 15px;}
+main .m-r .m-r-b ul li{float: left;text-align: center;}
+main .m-r .m-r-b ul li.add{background: #d0021b;width: 180px;height: 46px;margin-right: 10px}
+main .m-r .m-r-b ul li.add a{font: 16px/46px "";color: #fff;}
+main .m-r .m-r-b ul li.collect{border: 1px solid #ccc;height: 44px;width: 160px;font: 16px/46px "";}

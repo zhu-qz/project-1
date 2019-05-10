@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+.margin{width: 1150px;margin: 0 auto;}
+
+body{overflow-x: hidden;}
+banner{height: 450px;}
+banner .box{position: relative;margin: 5px auto;overflow: hidden;}
+banner .imgbox{height: 450px;width:1150px;}
+banner .imgbox img{width:1150px;height:450px;}
+banner .imgbox a{position: absolute;left:1150px;top:0}
+banner .imgbox a:nth-child(1){left:0}
+banner .btn *{border: none;background: rgba(255,255,255,0.6);width:50px;height:50px;position: absolute;top:200px;outline: none;cursor: pointer}
+banner #left{left:0}
+banner #right{right:0}
+
+#hot{margin-top: 80px;}
+#hot h3{width: 300px;height: 30px;border: 1px solid #000;text-align: center;font: 15px/2 "";color: #000;margin: 0 auto;margin-bottom: 40px;}
+#hot .hot ul li{float: left;margin:6px 6px 0 0;}
+
+#select{margin-top: 80px;}
+#select h3{width: 300px;height: 30px;border: 1px solid #000;text-align: center;font: 15px/2 "";color: #000;margin: 0 auto;margin-bottom: 25px;}
+#select .select ul li{float: left;margin:6px 6px 0 0;}
+
+#clothes{margin-top: 80px;}
+#clothes h3{width: 300px;height: 30px;border: 1px solid #000;text-align: center;font: 15px/2 "";color: #000;margin: 0 auto;margin-bottom: 40px;}
+#clothes .clothes{float: left;}
+#clothes .clothes .c-t .c-t-l{float: left;}
+#clothes .clothes .c-t .c-t-l .c-t-l-b{padding-top: 10px;}
+#clothes .clothes .c-t .c-t-c{float: left;padding:0 7px 0 7px;}
+#clothes .clothes .c-t .c-t-r{float: left;}
+#clothes .clothes .c-t .c-t-r ul li{float: left;padding-right: 6px;}
+#clothes .clothes .c-c .c-c-l{float: left;background: #f4f4f4;margin-top: 8px;}
+#clothes .clothes .c-c .c-c-l ul{width: 185px;height: 227px;padding: 10px 0;}
+#clothes .clothes .c-c .c-c-l ul li{float: left;width: 92.5px;height: 38px;text-align: center;}
+#clothes .clothes .c-c .c-c-l ul li a{font: 14px/38px "";color: #000}
+#clothes .clothes .c-c .c-c-c{float: left;padding:7px 7px 0 7px;}
+#clothes .clothes .c-c .c-c-r{float: left;padding-top: 7px;}
+#clothes .clothes .c-c .c-c-r ul li{float: left;padding-right: 6px;}
+#clothes .clothes .c-b ul li{float: left;padding:8px 8px 0 0;}
+
+#pants{margin-top: 80px;}
+#pants h3{width: 300px;height: 30px;border: 1px solid #000;text-align: center;font: 15px/2 "";color: #000;margin: 0 auto;margin-bottom: 40px;}
+#pants .pants .p-t .p-t-l{float: left;}
+#pants .pants .p-t .p-t-l .p-t-l-b{padding-top: 10px;}
+#pants .pants .p-t .p-t-c{float: left;padding:0 7px 0 7px;}
+#pants .pants .p-t .p-t-r{float: left;}
+#pants .pants .p-t .p-t-r ul li{float: left;padding-right: 6px;}
+#pants .pants .p-c .p-c-l{float: left;background: #f4f4f4;margin-top: 8px;}
+#pants .pants .p-c .p-c-l ul{width: 185px;height: 227px;padding: 10px 0;}
+#pants .pants .p-c .p-c-l ul li{float: left;width: 92.5px;height: 38px;text-align: center;}
+#pants .pants .p-c .p-c-l ul li a{font: 14px/38px "";color: #000}
+#pants .pants .p-c .p-c-c{float: left;padding:7px 7px 0 7px;}
+#pants .pants .p-c .p-c-r{float: left;padding-top: 7px;}
+#pants .pants .p-c .p-c-r ul li{float: left;padding-right: 6px;}
+#pants .pants .p-b ul li{float: left;padding:8px 8px 0 0;}
+
+#shoes{margin-top: 80px;}
+#shoes h3{width: 300px;height: 30px;border: 1px solid #000;text-align: center;font: 15px/2 "";color: #000;margin: 0 auto;margin-bottom: 40px;}
+#shoes .shoes .s-t .s-t-l{float: left;}
+#shoes .shoes .s-t .s-t-l .s-t-l-b{padding-top: 10px;}
+#shoes .shoes .s-t .s-t-c{float: left;padding:0 7px 0 7px;}
+#shoes .shoes .s-t .s-t-r{float: left;}
+#shoes .shoes .s-t .s-t-r ul li{float: left;padding-right: 6px;}
+#shoes .shoes .s-c .s-c-l{float: left;background: #f4f4f4;margin-top: 8px;}
+#shoes .shoes .s-c .s-c-l ul{width: 185px;height: 227px;padding: 10px 0;}
+#shoes .shoes .s-c .s-c-l ul li{float: left;width: 92.5px;height: 38px;text-align: center;}
+#shoes .shoes .s-c .s-c-l ul li a{font: 14px/38px "";color: #000}
+#shoes .shoes .s-c .s-c-c{float: left;padding:7px 7px 0 7px;}
+#shoes .shoes .s-c .s-c-r{float: left;padding-top: 7px;}
+#shoes .shoes .s-c .s-c-r ul li{float: left;padding-right: 6px;}
+#shoes .shoes .s-b ul li{float: left;padding:8px 8px 0 0;}
+
+#access{margin-top: 80px;}
+#access h3{width: 300px;height: 30px;border: 1px solid #000;text-align: center;font: 15px/2 "";color: #000;margin: 0 auto;margin-bottom: 40px;}
+#access .access .a-t .a-t-l{float: left;}
+#access .access .a-t .a-t-l .s-t-l-b{padding-top: 10px;}
+#access .access .a-t .a-t-c{float: left;padding:0 7px 0 7px;}
+#access .access .a-t .a-t-r{float: left;}
+#access .access .a-t .a-t-r ul li{float: left;padding-right: 6px;}
+#access .access .a-c .a-c-l{float: left;background: #f4f4f4;margin-top: 8px;}
+#access .access .a-c .a-c-l ul{width: 185px;height: 227px;padding: 10px 0;}
+#access .access .a-c .a-c-l ul li{float: left;width: 92.5px;height: 38px;text-align: center;}
+#access .access .a-c .a-c-l ul li a{font: 14px/38px "";color: #000}
+#access .access .a-c .a-c-c{float: left;padding:7px 7px 0 7px;}
+#access .access .a-c .a-c-r{float: left;padding-top: 7px;}
+#access .access .a-c .a-c-r ul li{float: left;padding-right: 6px;}
+#access .access .a-b ul li{float: left;padding:8px 8px 0 0;}
+
+#new{margin-top: 80px;}
+#new h3{width: 300px;height: 30px;border: 1px solid #000;text-align: center;font: 15px/2 "";color: #000;margin: 0 auto;margin-bottom: 40px;}
+#new ul li{float: left;text-align: center;padding-right: 7px;margin-bottom: 42px;}
+#new ul li a{font: 12px/25px "";color: black;}
+#new ul li a img{width: 222px;height: 298px;}
+#new ul li a p{margin-top: 10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width: 222px;}
+#new ul li a span{margin-top: 8px;}
+#new .more p{background: #000;margin: 0 auto;width: 120px;text-align: center;}
+#new .more p a{font: 14px/35px "";color: #fff;display:block;margin: 40px 0;}
+
+
+
+
+
+
+

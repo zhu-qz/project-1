@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.margin{width: 990px;margin: 0 auto;}
+
+#reg .r-l{padding: 0;}
+#reg .r-r{padding: 0;}
+
+main{margin-bottom: 50px}
+main .header{margin-top: 30px;}
+main .m-t{margin-top: 50px;}
+main .m-t ul{height: 50px;background: #444;padding-left: 20px;}
+main .m-t ul li{float: left;color: #fff;font: 16px/50px "";text-align: center;}
+main .m-t ul li.all{padding: 0 10px;width: 75px;position: relative;}
+main .m-t ul li.all input{display:block;width: 15px;height: 15px;border-radius: 50%;background: #fff;position: absolute;top: 35%;}
+main .m-t ul li.msg{width: 325px;}
+main .m-t ul li.price{width: 130px;}
+main .m-t ul li.num{width: 140px;}
+main .m-t ul li.total{width: 150px;}
+main .m-t ul li.act{width: 110px;}
+
+main .m-c{margin-top: 50px;overflow: hidden}
+main .m-c ul li{border: 1px solid #ccc;overflow: hidden;padding: 30px 40px;position: relative;margin-bottom: 30px}
+main .m-c ul li i input.btn{position: absolute;left: 20px;top: 60px;width: 18px;height: 18px;border-radius: 50%;background: none;border: 0;border: 2px solid #ccc;outline: none}
+main .m-c .msg{float: left;padding-right: 5px;padding-left: 10px;width: 350px;}
+main .m-c .msg img{float: left;border: 1px solid #ddd;width: 66px;height: 90px;}
+main .m-c .msg .box{float: left;padding-left: 15px;width: 250px;}
+main .m-c .msg .box a{font: 15px/26px "";}
+main .m-c .msg .box p{font: 12px/26px "";color: #777;padding-top: 20px}
+main .m-c .price{float: left;width: 120px;font: 14px/24px "";text-align: center;padding: 30px 35px;}
+main .m-c .num{float: left;padding:25px 40px 0 20px}
+main .m-c .num input{width: 28px;height: 30px;border: 1px solid #ddd;float: left;text-align: center;padding:0 10px;outline: none;background: none;}
+main .m-c .total{float: left;width: 148px;font: 14px/24px "";text-align: center;padding-top: 30px}
+main .m-c .act{float: left;padding-top: 30px;margin-left: 50px}
+main .m-c .act span{display: block;font: 12px/25px "";text-align: right;cursor: pointer;}
+main .m-b{height: 50px;background: #e0e0e0;margin-top: 30px;}
+main .m-b ul li{float: left;position: relative;font: 14px/50px;padding: 20px 45px}
+main .m-b ul li input{display:block;width: 15px;height: 15px;border-radius: 50%;background: #fff;position: absolute;top: 35%;left: 20px;border: 1px solid #ddd;}
+main .m-b ul li.money{float: right;padding:0;height:50px;width: 150px;background: rgb(197, 30, 30);font: 20px/50px "0";text-align: center}
+main .m-b ul li.money a{color: #fff;}

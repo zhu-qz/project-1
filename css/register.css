@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.margin{width: 1150px;margin: 0 auto;}
+
+
+main{margin:10px 0 40px 0;}
+main .safe{}
+main .m-l{float:left;width: 576px;height:418px;border-right: 1px solid #ccc;margin-top: 100px;text-align: center;padding-top: 50px;}
+main .m-l a img{margin-top: 50px;}
+main .m-r{float:left;margin-top: 100px;padding-left: 85px;}
+main .m-r h4{font: 20px/25px "";color: black;padding-bottom: 20px;}
+main .m-r ul li{margin-bottom: 20px;}
+main .m-r ul li input{width: 270px;height: 43px;font: 16px/45px "";padding-left: 7px;outline: none;border: 0;border: 1px solid #aaa;display: block;}
+main .m-r ul li.verify .txt{float: left;width: 160px;margin-right: 8px;}
+main .m-r ul li.verify .sub{width: 100px;float: left;background: #ff1901;border: 0;font: 12px/45px "";color: #fff;height: 45px;padding: 0;}
+main .m-r ul li span{font: 12px/2 "";color: #666;padding-right: 10px;}
+main .m-r ul li a{font: 12px/2 "";color: #ff1901;text-decoration: underline;padding-right: 10px;}
+main .m-r ul li input.btn{background: #444;font: 700 20px/45px "黑体";color: #fff;text-align: center;}
+
+
+
